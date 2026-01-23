@@ -1,0 +1,81 @@
+{
+  "student_info": {
+    "name": "조유노",
+    "student_id": "21023",
+    "created_date": "2026-01-23"
+  },
+  "works": [
+    {
+      "session": 1,
+      "timestamp": "2026-01-23 05:41:28",
+      "prompt": "a cat, one of the strongest animals",
+      "negative_prompt": "-",
+      "technique": "기본 프롬프팅",
+      "notes": "자세히 써야  좋고 영어를 잘 알아야 좋다.",
+      "image_path": "images/session1_1.png"
+    },
+    {
+      "session": 2,
+      "timestamp": "2026-01-23 05:48:38",
+      "prompt": "a castle",
+      "negative_prompt": "-",
+      "technique": "Zero-shot 프롬프팅",
+      "notes": "제로샷은 내가 상상한 것과 일치하게 나올 확률이 매우 낮으며 실망스러울 때가 많다. 하지만 디테일하게 프롬프트를 입력하면 내가 원하는 특징을 모두 담을 수 있고 내가 생각한 것과 비슷하게 나와 만족할 수 있다.",
+      "image_path": "images/session2_1.png"
+    },
+    {
+      "session": 2,
+      "timestamp": "2026-01-23 05:48:38",
+      "prompt": "a grand castle which has 5 areas. gray and blue. very big, more than a city. fantasy, 4k",
+      "negative_prompt": "-",
+      "technique": "상세 프롬프팅",
+      "notes": "제로샷은 내가 상상한 것과 일치하게 나올 확률이 매우 낮으며 실망스러울 때가 많다. 하지만 디테일하게 프롬프트를 입력하면 내가 원하는 특징을 모두 담을 수 있고 내가 생각한 것과 비슷하게 나와 만족할 수 있다.",
+      "image_path": "images/session2_2.png"
+    },
+    {
+      "session": 3,
+      "timestamp": "2026-01-23 05:53:54",
+      "prompt": "a kingdom, with village, grand, fantasy, big, fantasy art style, magical, epic, detailed illustration, overcast lighting, soft diffused light, bird's eye view, top-down perspective",
+      "negative_prompt": "-",
+      "technique": "스타일 프롬프팅",
+      "notes": "스타일 이라는 큰 틀을 잡아주는 것 만으로 전체적인 이미지의 느낌을 잡을 수 있고 내가 원하는 분위기의 그림을 생성하는데 큰 도움이 된다.",
+      "image_path": "images/session3_1.png"
+    },
+    {
+      "session": 4,
+      "timestamp": "2026-01-23 06:20:17",
+      "prompt": "a beautiful portrait of a young woman, dress, beach background, soft lighting, white long hair, grab sword, fly",
+      "negative_prompt": "poorly drawn face, mutation, deformed, ugly, old, unrealistic",
+      "technique": "네거티브 프롬프팅",
+      "notes": "네거티브 프롬프트를 이용해 내가 정말 싫어하는 요소들을 배제할 수 있다는 장점이 있지만 좋은 모델을 활용하는 것이 아닌 경우 오히려 모델이 이해를 잘 하지 못해 역효과가 날 수 있다.",
+      "image_path": "images/session4_1.png"
+    },
+    {
+      "session": 5,
+      "timestamp": "2026-01-23 06:29:21",
+      "prompt": "alone",
+      "negative_prompt": "blurry, low quality, distorted, text, watermark",
+      "technique": "Step-back 프롬프팅",
+      "notes": "스텝백이 그렇게 중요한가? 했는데 있을 때 없을 때를 비교해보니 확실히 중요함. 특히 추상적인 주제를 근본부터 이해하여 내가 원하는 느낌과 분위기의 그림 생성이 가능함.",
+      "image_path": "images/session5_1.png"
+    },
+    {
+      "session": 6,
+      "timestamp": "2026-01-23 06:35:49",
+      "prompt": "a knight, holding a sword above one's head, a flagged hill, sunset glow, 3D game",
+      "negative_prompt": "blurry, low quality",
+      "technique": "CoT 레이어 빌딩",
+      "notes": "레이어를 쌓을수록 더 자세한 그림이 완성됨.",
+      "image_path": "images/session6_1.png"
+    },
+    {
+      "session": 7,
+      "timestamp": "2026-01-23 06:41:11",
+      "prompt": "A knight who only sees the dragon above the sky hidden behind the clouds and looks up from below to fight against it with only a silhouette due to lightning, fantasy art, magical, epic, detailed illustration, cinematic, dramatic lighting, movie still",
+      "negative_prompt": "blurry, low quality, distorted, ugly, bad anatomy",
+      "technique": "종합",
+      "notes": "자세히, 다양히 프롬프트를 작성할수록 내 기대에 부합한다.",
+      "image_path": "images/session7_1.png"
+    }
+  ]
+}
